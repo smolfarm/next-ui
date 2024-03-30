@@ -1,3 +1,3 @@
 # smol-next-ui
 
-Next UI components
+Next React UI components for use in smol farm projects.
