@@ -25,10 +25,10 @@ type ButtonProps = {
 const Button = (props: ButtonProps) => {
     const { children, onClick, disabled } = props
 
-    let className = "bg-teal-800 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded-lg"
+    let className = "button font-bold py-2 px-4 rounded-lg"
 
     if(disabled) {
-        className = "bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-lg"
+        className = "button bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-lg"
     }
 
     const size = props.size ?? "lg"

@@ -1,13 +1,13 @@
 /**
- * 
- *                   _        ___                   
- *                  | |      / __)                  
- *   ___ ____   ___ | |    _| |__ _____  ____ ____  
- *  /___)    \ / _ \| |   (_   __|____ |/ ___)    \ 
+ *
+ *                   _        ___
+ *                  | |      / __)
+ *   ___ ____   ___ | |    _| |__ _____  ____ ____
+ *  /___)    \ / _ \| |   (_   __|____ |/ ___)    \
  * |___ | | | | |_| | |     | |  / ___ | |   | | | |
  * (___/|_|_|_|\___/ \_)    |_|  \_____|_|   |_|_|_|
- * 
- * 
+ *
+ *
  * React component for displaying input fields on a form, handling things like different input types, error messages, and hints.
  *
  */
@@ -45,13 +45,13 @@ const FormInput = (props: FormInputProps) => {
 
     // Calculate our class name based on whether or not we have an error
     if(!errorValue) {
-        className += " focus:border-emerald-600"
+        className += " focus:border-blue-600"
     } else {
         className += " border-red-600"
     }
 
-    const field = !multiline ? 
-                <input 
+    const field = !multiline ?
+                <input
                     className={className}
                     id={id}
                     name={id}
