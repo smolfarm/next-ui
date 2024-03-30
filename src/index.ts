@@ -18,5 +18,15 @@ import FormattedNumber from './FormattedNumber'
 import FormInput from './FormInput'
 import Heading from './Heading'
 import LinkButton from './LinkButton'
+import Stars from './Stars'
 
-export { Button, Container, Divider, FormattedNumber, FormInput, Heading, LinkButton }
+export {
+    Button,
+    Container,
+    Divider,
+    FormattedNumber,
+    FormInput,
+    Heading,
+    LinkButton,
+    Stars
+}
