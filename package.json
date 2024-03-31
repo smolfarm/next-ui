@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "description": "Next UI components",
   "main": "src/index.ts",
-  "typings": "build/main/index.d.ts",
   "repository": "https://github.com/ExistentialEnso/smol-next-ui",
-  "license": "MIT",
-  "keywords": [],
   "scripts": {
     "build": "run-p build:*",
     "build:main": "tsc -p tsconfig.json",
