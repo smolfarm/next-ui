@@ -18,6 +18,7 @@ import FormattedNumber from './FormattedNumber'
 import FormInput from './FormInput'
 import Heading from './Heading'
 import LinkButton from './LinkButton'
+import ProgressBar from './ProgressBar'
 import Stars from './Stars'
 
 export {
@@ -28,5 +29,6 @@ export {
     FormInput,
     Heading,
     LinkButton,
+    ProgressBar,
     Stars
 }

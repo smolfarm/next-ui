@@ -11,7 +11,11 @@
  *
  */
 
-export default function Stars({ count }) {
+type StarsProps = {
+    count: number
+}
+
+export default function Stars({ count }: StarsProps) {
     const classes: any[] = []
 
     for (let i = 0; i < 5; i++) {
