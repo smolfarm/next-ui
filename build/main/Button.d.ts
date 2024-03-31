@@ -11,7 +11,6 @@
  * React component for a simple button to standardize button styles across the app.
  *
  */
-import React from 'react';
 type ButtonProps = {
     children?: React.ReactNode;
     size?: 'sm' | 'md' | 'lg' | 'xl' | '2xl';

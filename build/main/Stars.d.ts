@@ -10,6 +10,8 @@
  * Component for displaying a certain number of stars.
  *
  */
-export default function Stars({ count }: {
-    count: any;
-}): import("react/jsx-runtime").JSX.Element;
+type StarsProps = {
+    count: number;
+};
+export default function Stars({ count }: StarsProps): import("react/jsx-runtime").JSX.Element;
+export {};
