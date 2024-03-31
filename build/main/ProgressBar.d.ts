@@ -8,10 +8,12 @@
  * (___/|_|_|_|\___/ \_)    |_|  \_____|_|   |_|_|_|
  *
  *
- * React component that formats a number to include commas.
+ * React component for a progress bar.
  *
  */
-export default function FormattedNumber({ children, className }: {
-    children: number;
-    className?: string;
-}): import("react/jsx-runtime").JSX.Element;
+type ProgressBarProps = {
+    completion: number;
+    size?: "md" | "lg";
+};
+export default function ProgressBar(props: ProgressBarProps): import("react/jsx-runtime").JSX.Element;
+export {};

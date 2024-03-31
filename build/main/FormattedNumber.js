@@ -12,9 +12,9 @@ import { jsx as _jsx } from "react/jsx-runtime";
  * React component that formats a number to include commas.
  *
  */
-export default function FormattedNumber({ value, className }) {
-    if (!value)
-        value = 0;
-    return (_jsx("span", { className: className, children: value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") }));
+export default function FormattedNumber({ children, className }) {
+    if (!children)
+        children = 0;
+    return (_jsx("span", { className: className, children: children.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") }));
 }
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRm9ybWF0dGVkTnVtYmVyLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL0Zvcm1hdHRlZE51bWJlci50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBOzs7Ozs7Ozs7Ozs7R0FZRztBQUVILE1BQU0sQ0FBQyxPQUFPLFVBQVUsZUFBZSxDQUFDLEVBQUUsS0FBSyxFQUFFLFNBQVMsRUFBeUM7SUFDL0YsSUFBRyxDQUFDLEtBQUs7UUFDTCxLQUFLLEdBQUcsQ0FBQyxDQUFBO0lBRWIsT0FBTyxDQUNILGVBQU0sU0FBUyxFQUFFLFNBQVMsWUFDckIsS0FBSyxDQUFDLFFBQVEsRUFBRSxDQUFDLE9BQU8sQ0FBQyx1QkFBdUIsRUFBRSxHQUFHLENBQUMsR0FDcEQsQ0FDVixDQUFBO0FBQ0wsQ0FBQyJ9
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRm9ybWF0dGVkTnVtYmVyLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL0Zvcm1hdHRlZE51bWJlci50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IjtBQUFBOzs7Ozs7Ozs7Ozs7R0FZRztBQUVILE1BQU0sQ0FBQyxPQUFPLFVBQVUsZUFBZSxDQUFDLEVBQUUsUUFBUSxFQUFFLFNBQVMsRUFBNEM7SUFDckcsSUFBRyxDQUFDLFFBQVE7UUFDUixRQUFRLEdBQUcsQ0FBQyxDQUFBO0lBRWhCLE9BQU8sQ0FDSCxlQUFNLFNBQVMsRUFBRSxTQUFTLFlBQ3JCLFFBQVEsQ0FBQyxRQUFRLEVBQUUsQ0FBQyxPQUFPLENBQUMsdUJBQXVCLEVBQUUsR0FBRyxDQUFDLEdBQ3ZELENBQ1YsQ0FBQTtBQUNMLENBQUMifQ==
