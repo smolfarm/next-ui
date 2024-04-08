@@ -1,3 +1,17 @@
+/**
+ *
+ *                   _        ___
+ *                  | |      / __)
+ *   ___ ____   ___ | |    _| |__ _____  ____ ____
+ *  /___)    \ / _ \| |   (_   __|____ |/ ___)    \
+ * |___ | | | | |_| | |     | |  / ___ | |   | | | |
+ * (___/|_|_|_|\___/ \_)    |_|  \_____|_|   |_|_|_|
+ *
+ *
+ * React component for displaying a section heading.
+ *
+ */
+
 type HeadingProps = {
     size?: Number,
     children?: React.ReactNode,
@@ -7,6 +21,7 @@ type HeadingProps = {
 export default function Heading(props: HeadingProps) {
     const { children, size } = props
 
+    // Default to size 1
     const headerSize = size ?? 1
 
     const className = props.className ? " " + props.className  : ""
