@@ -1,3 +1,17 @@
+/**
+ *
+ *                   _        ___
+ *                  | |      / __)
+ *   ___ ____   ___ | |    _| |__ _____  ____ ____
+ *  /___)    \ / _ \| |   (_   __|____ |/ ___)    \
+ * |___ | | | | |_| | |     | |  / ___ | |   | | | |
+ * (___/|_|_|_|\___/ \_)    |_|  \_____|_|   |_|_|_|
+ *
+ * Component that generates a top row for a table based on provided columns.
+ *
+ */
+
+
 type TableHeadProps = {
     children?: React.ReactNode
     className?: string
