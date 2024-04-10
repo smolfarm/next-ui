@@ -20,6 +20,10 @@ import Heading from './Heading'
 import LinkButton from './LinkButton'
 import ProgressBar from './ProgressBar'
 import Stars from './Stars'
+import Table from './Table'
+import TableCell from './TableCell'
+import TableHead from './TableHead'
+import Text from './Text'
 
 export {
     Button,
@@ -30,5 +34,9 @@ export {
     Heading,
     LinkButton,
     ProgressBar,
-    Stars
+    Stars,
+    Table,
+    TableCell,
+    TableHead,
+    Text
 }
