@@ -11,6 +11,7 @@
  * React component for displaying input fields on a form, handling things like different input types, error messages, and hints.
  *
  */
+import React from 'react'
 
 type FormInputProps = {
     id: string,
