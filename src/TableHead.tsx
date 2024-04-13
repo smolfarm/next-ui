@@ -34,10 +34,10 @@ export default function TableHead(props: TableHeadProps) {
                     {props.columns?.map((column) => {
                         let className = "font-bold color-white px-8 py-2 mr-1"
 
-                        if(props.columns[0] === column) {
+                        if(props.columns && props.columns[0] === column) {
                             className += "rounded-tl-lg"
                         }
-                        if(props.columns[props.columns.length - 1] === column) {
+                        if(props.columns && props.columns[props.columns.length - 1] === column) {
                             className += "rounded-tr-lg"
                         }
 
