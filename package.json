@@ -75,7 +75,8 @@
     "!**/*.json",
     "CHANGELOG.md",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "src/*.tsx"
   ],
   "ava": {
     "failFast": true,
