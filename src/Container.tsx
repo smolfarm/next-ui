@@ -1,16 +1,18 @@
 /**
- * 
- *                   _        ___                   
- *                  | |      / __)                  
- *   ___ ____   ___ | |    _| |__ _____  ____ ____  
- *  /___)    \ / _ \| |   (_   __|____ |/ ___)    \ 
+ *
+ *                   _        ___
+ *                  | |      / __)
+ *   ___ ____   ___ | |    _| |__ _____  ____ ____
+ *  /___)    \ / _ \| |   (_   __|____ |/ ___)    \
  * |___ | | | | |_| | |     | |  / ___ | |   | | | |
  * (___/|_|_|_|\___/ \_)    |_|  \_____|_|   |_|_|_|
- * 
- * 
+ *
+ *
  * Component for putting other things inside of a standardized container.
  *
  */
+
+import React from 'react'
 
 type ContainerProps = {
     children: React.ReactNode
