@@ -12,6 +12,8 @@
  *
  */
 
+import React from 'react'
+
 type ButtonProps = {
     children?: React.ReactNode,
     size?: 'sm' | 'md' | 'lg' | 'xl' | '2xl',

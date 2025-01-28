@@ -1,6 +1,6 @@
 # smol next ui
 
-Shared Next React components used in smol farm projects to standardize various things. Components range from simple to complex and are designed to work with Next.js. This helps create a unified style language that helps aid UX across the smol farm ecosystem.
+Shared Next React components used in smol farm projects.js. This helps create a unified style language that helps aid UX across the smol farm ecosystem.
 
 ## Setup
 
